@@ -45,3 +45,18 @@ Auth level: ANONYMOUS
 ├── local.settings.json
 └── requirements.txt
 ```
+## **Implementação**
+
+A função deve:
+
+- Aceitar query parameters temperature e unit.
+- Validar que ambos foram fornecidos.
+- Converter Celsius ↔ Fahrenheit.
+- Retornar `HTTP 400` se os parâmetros estiverem ausentes ou inválidos.
+- Retornar o valor convertido em text/plain.
+
+Exemplo de URL para teste local:
+```bash
+http://localhost:7071/api/convert_temperature?temperature=34.3&unit=celsius
+```
+<img width="556" height="124" alt="image" src="https://github.com/user-attachments/assets/544ac37e-5749-43ab-8bb8-a742e7417bee" />
