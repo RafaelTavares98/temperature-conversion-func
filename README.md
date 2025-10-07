@@ -15,13 +15,6 @@ cd /mnt/c/Users/tavar/Documents/github/temperature-conversion-func
 func init . --python
 ```
 
-## **Criar projeto**
-Caminho exemplo:
-```bash
-cd /mnt/c/Users/tavar/Documents/github/temperature-conversion-func
-func init . --python
-```
-
 ## **Dependências**
 Edite requirements.txt e deixe:
 ```bash
